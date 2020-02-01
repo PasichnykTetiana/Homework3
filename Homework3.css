@@ -1,18 +1,33 @@
-body {text-align:center;
-    /*   background: var;
-   linear-gradient(
-   115deg,
-   rgba(58, 58, 158, 0.8),
-   rgba(136, 136, 206, 0.7)
-   ), */
-    background-image:
-            url("https://cs10.pikabu.ru/post_img/big/2018/09/20/11/153746768119406797.jpg")  }
-#title {color:white}
-#description {color:white}
+html, body {
+    weight: 100%;
+}
+body {
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+),
+     url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+    color:white
+
+
+ }
+#title {}
+#description {}
 .submit-button{background-color: #37af65;
     cursor: pointer;
     width: 100%;}
-#main { max-width: 540px;
-    margin: 3.125rem auto 0 auto;}
-#form {
-    background-color: #dddddd
+#main {;
+    margin: 3.125rem auto 0 auto;
+    max-width: 720px;}
+#form { padding: 2.15rem;
+}
+
+.container{
+    margin: 0 auto 1.25rem auto;
+
+    background: rgba(27, 27, 50, 0.8);}
+.form-group{padding:0.25rem;
+    margin: 0 auto 1.25rem auto;}
+.formcontrol {width: 100%;}
+label {display: flex;}
