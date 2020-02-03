@@ -36,7 +36,7 @@ header {margin-bottom: 1.875rem;}
 
     background: rgba(27, 27, 50, 0.8);
     border-radius: 0.25rem;
-    margin: 0;}
+    }
 
 .form-group{padding:0.25rem;
     margin: 0 auto 1.25rem auto;
@@ -48,23 +48,29 @@ header {margin-bottom: 1.875rem;}
     border-radius: 0.25rem;
     border: 1px solid #ced4da;
 }
+
 label {display: flex;}
+
 .input-r, .input-check {    display: inline-block;
    margin-right: 0.625rem;
     height: 1.25rem;
    width: 1.25rem;}
+
  label{
     margin-bottom: 0.5rem;
      align-items: center;}
+
  select, input, button, textarea {    font-family: inherit;
      font-size: inherit;
  color:gray;
      resize: none;}
+
  .input-text {height: 120px;
      width: 100%;
      padding: 0.625rem;}
  p {margin-bottom: 0.5rem;
      font-size: 1.125rem;}
+
  button {padding: 0.75rem;
      color: inherit;
      border-radius: 2px;
@@ -72,4 +78,4 @@ label {display: flex;}
      width: 100%;}
 *, *::before, *::after {
     box-sizing: border-box;
-} /*разобрать что это*/
+                       }
